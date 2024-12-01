@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire</title>
+
+</head>
+<body id="body">
+
+
+    <header class="header">
+        <img src="img/menu.png" id="hamburger">
+
+        <ul>
+            <li><button id="button"> <p class="darkmode"> dark mode </p> </button></li>
+        </ul>
+
+        <a href="menu.html"><img src="img/undertale.png" id="logo"></a>
+
+    </header>
+
+    <h1>
+        Formulaire
+    </h1>
+
+    <div class="message-error">
+        <ul> </ul>
+    </div>
+
+    <div class="message-success">
+        <ul> </ul>
+    </div>
+    
+    
+    <form id="form" action="menu.html">
+        <div>
+            <!-- champs texte -->
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Your pseudo">
+        </div>
+
+        <div>
+            <!-- champs email -->
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="Your email">
+        </div>  
+
+        <div>   <label for="sexe"> Gender :</label>
+            <input class="radio1" type="radio" id=sexe name="sexe" value=Men>Man
+            <input class="radio1" type="radio" if=sexe name="sexe" value=Woman>Woman
+            <input class="radio1" type="radio" if=sexe name="sexe" value=Others>Others
+        </div> 
+
+        <div>
+            <!-- champs password -->
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+        </div>
+
+        <div>
+            <!-- champs password -->
+             <label for="password2">Verify password :</label>
+            <input type="password" name="password2" id="password2" placeholder="Enter password">
+        </div> 
+
+        <div>
+            <!-- un bouton pour soumettre mes données -->
+            <input type="submit" value="Inscription">
+        </div>
+    </form>
+
+    <footer>
+
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a class="white" href="menu.html"> Main page </a> 
+                </li>
+                <li>
+                    <a class="white" href="formulaire.html"> Log In</a>
+                </li>
+                <li>
+                    <a class="white" href="https://store.steampowered.com/app/391540/Undertale/"> Game </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div>
+            <img src="img/Temmie_battle_idle-ezgif.com-resize.gif" id="Temmie">
+        </div>
+
+    </footer>
+
+    <script src="formulaire.js"></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    transition: 0.3s;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#button p {
+    color: aliceblue;
+    padding: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#button {
+    margin-left: 10px;
+    
+}
+
+
+.darkmode {
+    background-color: rgb(0, 0, 0);  
+    transition: 0.3s;
+}
+
+.darkmode .tab {
+    background-color: rgba(94, 128, 208, 0.903);
+    transition: 0.3s;
+}
+
+.darkmode .tab1 {
+    background-color: rgba(63, 87, 141, 0.903);
+    transition: 0.3s;
+}
+
+.darkmode .tab2 {
+    background-color: rgba(63, 87, 141, 0.903);
+    transition: 0.3s;
+}
+
+.darkmode .tab3 {
+    background-color: rgba(63, 87, 141, 0.903);
+    transition: 0.3s;
+}
+
+.darkmode .tab_active {
+    background-color: rgba(63, 87, 141, 0.903);
+    color: rgb(255, 255, 255); 
+    transition: 0.3s;
+}
+
+.darkmode h1 {
+    color: rgba(63, 87, 141, 0.903);
+    transition: 0.3s;
+}
+
+.darkmode .text {
+    color: rgba(94, 128, 208, 0.903);
+    transition: 0.3s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    width: 170px;
+    padding-top: 5px;
+    margin-left: 460px;
+}
+
+
+#hamburger {
+    width: 3%;
+}
+
+#searchbar {
+    margin-left: 345px;
+}
+
+#search {
+    
+    width: 15px;
+    height: 15px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+h1 {
+    padding-top: 40px;
+    color: rgba(190, 27, 27, 0.903);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.text {
+    width: 80%;
+    margin-top: 30px;
+    font-size: 130%;
+    transition: 0.3s;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.tab {
+    padding: 8px;
+    margin: 5px;
+    margin-top: 40px;
+    font-size: 180%;
+    justify-content: space-evenly;
+    background-color: rgba(220, 33, 33, 0.903);
+    color: rgb(255, 255, 255);;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.divs {
+    background-color: rgba(190, 27, 27, 0.903);
+    width: 90%;
+    height: 1000px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.tab_active {
+    background-color: rgba(190, 27, 27, 0.903);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
+.card_container {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    width: 270px;
+    height: 365px;
+    margin: 70px;
+    border: 6px solid white;
+    border-radius: 3%;
+}
+
+.content{
+    display: none;
+}
+
+.active {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Sans {
+    display: flex;
+    gap: 100px;
+    font-size: 120%;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.DrAplhys {
+    display: flex;
+    gap: 60px;
+    font-size: 120%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.Mettaton {
+    display: flex;
+    gap: 70px;
+    font-size: 120%;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.Papyrus {
+    display: flex;
+    gap: 85px;
+    font-size: 120%;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.Frisk {
+    display: flex;
+    gap: 90px;
+    font-size: 120%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.Undyne {
+    display: flex;
+    gap: 65px;
+    font-size: 120%;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.Toriel {
+    display: flex;
+    gap: 90px;
+    font-size: 120%;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.Asgore {
+    display: flex;
+    gap: 70px;
+    font-size: 120%;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.Flowey {
+    display: flex;
+    gap: 65px;
+    font-size: 120%;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.Chara {
+    display: flex;
+    gap: 80px;
+    font-size: 120%;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.Asriel {
+    display: flex;
+    gap: 80px;
+    font-size: 120%;
+    padding-left: 65px;
+    padding-top: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.pics {
+    display: block;
+    width: 85%;
+    height: 190px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.picsFlowey {
+    display: block;
+    width: 85%;
+    height: 190px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.capacity1 {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 95%;
+}
+
+.txt-cap1 {
+    font-size: 80%;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.capacity2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 95%;
+}
+
+.txt-cap2 {
+    font-size: 80%;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+footer {
+    display: flex;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.nav {
+    padding-left:500px;
+    padding-top: 80px;
+}
+
+.white {
+
+    color: white;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+#Temmie {
+   margin-left: 250px;
+   margin-top: 50px;
+   width: 200px;
+   
+}
