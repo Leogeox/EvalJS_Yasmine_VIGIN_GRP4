@@ -48,9 +48,9 @@ form.addEventListener('submit', function(event) {
         password2.classList.add('invalid')
     } else {
         password1.classList.remove('invalid')
-        password1.classList.add('sucess')
+        password1.classList.add('success')
         password2.classList.remove('invalid')
-        password2.classList.add('sucess')
+        password2.classList.add('success')
     }
 
     if(passwords.value.length < 8 || passCheck.test(passwords[0,1].value) === false) {
@@ -58,9 +58,9 @@ form.addEventListener('submit', function(event) {
         password2.classList.add('invalid')
     } else {
         password1.classList.remove('invalid')
-        password1.classList.add('sucess')
+        password1.classList.add('success')
         password2.classList.remove('invalid')
-        password2.classList.add('sucess')
+        password2.classList.add('success')
      };
 
 });
